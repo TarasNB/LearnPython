@@ -5,7 +5,7 @@ print(prevPrev)
 prev = 1
 print(prev)
 
-for iter in range(2, num) :
+for iterNum in range(2, num) :
     fib = prevPrev + prev
     print(fib)
 
